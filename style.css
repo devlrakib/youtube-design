@@ -1,0 +1,164 @@
+/*---------------- Universal CSS Apply --------------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background-color: #424242;
+}
+
+/*--------------- Header_container Start CSS Apply ------------------*/
+.header_container{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2020;
+    transform: translateY(0);
+    transition: transform .32s ease;
+    background-color: #CFD8DC;
+    position: relative;
+}
+
+/*------------- Menu Icon In CSS Start ------------------*/
+.menu{
+    width: 40px;
+    height: 45px;
+    /* border: 2px solid red; */
+    padding-bottom: 20px;
+    border-radius: 50px;
+    margin-left: 30px;
+    
+
+}
+.menu .fa-bars{
+   /* width: 24px;
+   height: 24px; */
+   width: 30px;
+   height: 30px;
+   border-radius: 50px;
+   padding-top: 50px;
+   padding: 8px;
+   box-sizing: border-box;
+   cursor: pointer;
+   margin-top: 7px;
+   margin-left: 20px;     
+
+}
+
+.menu .fa:hover{
+    background-color: #424242;
+    color: white;
+    cursor: pointer;
+}
+/*------------- Menu Icon In CSS End ------------------*/
+
+/*------------- Yt logo In CSS Start ------------------*/
+.yt_logo img{
+    position: absolute;
+    width: 150px;
+    margin-top: -90px;
+    margin-left: 60px;
+    position: cover; 
+    cursor: pointer;  
+}
+
+.yt_logo p{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 200px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #263238;
+    cursor: pointer;
+}
+
+/*------------- Header Searchbar CSS Apply ------------------*/
+
+.searchbar{
+    position: absolute;
+    margin-top: -29px;
+    margin-left: 500px;    
+}
+
+.searchbar input{
+    width: 700px;
+    height: 30px;
+    border-radius: 50px;
+    border: none;
+    padding-left: 50px;
+    background-color: white;
+}
+
+
+
+/*---------------- Microphone CSS Apply ----------------- */
+.micro{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 740px;
+    width: 30px;
+    height: 30px;
+    /* border: 2px solid red; */
+    background-color: white;
+    border-radius: 50px;
+}
+
+.micro .fa-solid{
+  margin-left: 8px;
+  margin-top: 6px;
+}
+
+.micro:hover{
+    background-color: #424242;
+    color: white;
+    cursor: pointer;
+}
+
+/*------------- Create CSS Apply ------------------- */
+.create{
+    width: 30px;
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 1100px;
+    cursor: pointer;
+}
+
+/*------------- Notification CSS Apply ------------------- */
+
+.notification1{
+    position: absolute;
+    margin-top: -31px;
+    margin-left: 1200px;
+    width: 32px;
+    height: 32px;
+    /* border: 2px solid red; */
+    
+    background-color: white;
+    border-radius: 50px;
+}
+
+.notification1 .fa-solid{
+    margin-left: 4px;
+    margin-top: 2px;
+  }
+
+.notification1:hover{
+    background-color: #424242;
+    color: white;
+    cursor: pointer;
+}
+
+/* ---------------------- Profile CSS Apply ------------------ */
+
+.profile img{
+    position: absolute;
+    border-radius: 50px;
+    margin-top: -30px;
+    height: 32px;
+    width: 32px;
+    margin-left: 1300px;
+    cursor: pointer;
+}
