@@ -6,9 +6,9 @@
     font-family: sans-serif;
 }
 
-body{
+/* body{
     background-color: #424242;
-}
+} */
 
 /*--------------- Header_container Start CSS Apply ------------------*/
 .header_container{
@@ -162,3 +162,400 @@ body{
     margin-left: 1300px;
     cursor: pointer;
 }
+/* ---------------------- Home CSS Apply ------------------ */
+.left{
+    width: 200px;
+    height: 39px;
+    background-color: #b1c1ca ;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.left .fa-solid{
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.left p{
+    position: absolute;
+    margin-top: -18px;
+    color: black;
+    margin-left: 60px;
+    font-weight: bold;
+}
+
+/* ---------------------- Shorts CSS Apply ------------------ */
+.shorts{
+    width: 200px;
+    height: 39px;
+    /* background-color: #272727b9; */
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.shorts img{
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.shorts p{
+    position: absolute;
+    margin-top: -28px;
+    color: black;
+    margin-left: 60px; 
+    font-weight: bold;
+}
+
+.shorts:hover{
+    background-color: #deecf4 ;
+    color: white;
+}
+
+/* ---------------------- Subscription Style CSS Apply ------------------ */
+
+.subscriotion{
+    position: absolute;
+    width: 200px;
+    height: 39px;
+    /* background-color: #deecf4; */
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.subscriotion img{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    margin-left: 20px;
+    margin-top: 10px;
+    color: black;
+}
+
+.subscriotion p{
+    position: absolute;
+    margin-top: 10px;
+    color: black;
+    margin-left: 60px; 
+    font-weight: bold;
+}
+
+.subscriotion:hover{
+    background-color:#deecf4;
+}
+
+/* ---------------------- Subscription Style CSS End ------------------ */
+
+
+/* ---------------------- Border Bottom Style CSS Start ------------------ */
+
+.border_bottom{
+    width: 200px;
+    border-bottom: 1px solid black;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+/* ---------------------- Border Bottom Style CSS End ------------------ */
+
+/* ----------------------  You Line CSS Apply Start ------------------ */
+.you{
+   width: 200px;
+   height: 36px;
+   /* background-color: aqua; */
+   margin-left: 10px;
+   border-radius: 10px;
+   cursor: pointer;
+}
+.you p{
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #424242;
+    padding: 10px;
+}
+
+.you i{
+    position: absolute;
+    margin-top: -27px;
+    margin-left: 70px;    
+}
+
+.you:hover{
+    background-color:#deecf4;
+}
+/* ----------------------  You Line CSS Apply End ------------------ */
+
+.your_channel{
+    width: 200px;
+    height: 36px;
+    /* background-color: aqua; */
+    margin-left: 10px;
+    margin-top: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.your_channel i{
+    margin-left: 23px;
+    margin-top: 10px;
+    /* width: 30px; */
+}
+
+.your_channel p{
+    position: absolute;
+    margin-top: -18px;
+    margin-left: 50px;
+    font-weight: bold;
+}
+
+.your_channel:hover{
+    background-color:#deecf4;
+}
+/*------------------- History CSS Start ----------------------- */
+.history{
+    width: 200px;
+    height: 36px;
+    /* background-color: aqua; */
+    margin-left: 10px;
+    margin-top: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.history img{
+    width: 20px;
+    height: 20px;
+    margin-left: 23px;
+    margin-top: 8px;
+}
+
+.history p{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 52px;
+    font-weight: bold;
+}
+
+.history:hover{
+    background-color: #deecf4;
+}
+/*------------------- History CSS End ----------------------- */
+
+/*------------------- Your Videos CSS Start ----------------------- */
+.your_videos{
+    width: 200px;
+    height: 36px;
+    /* background-color: aqua; */
+    margin-left: 10px;
+    margin-top: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.your_videos img{
+    width: 20px;
+    height: 20px;
+    margin-left: 23px;
+    margin-top: 8px;
+}
+
+.your_videos p{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 52px;
+    font-weight: bold;
+}
+
+.your_videos:hover{
+    background-color: #deecf4;
+}
+/*------------------- Your Videos CSS End ----------------------- */
+
+/*------------------- Watch Later CSS Start ----------------------- */
+.watch{
+    width: 200px;
+    height: 36px;
+    /* background-color: aqua; */
+    margin-left: 10px;
+    margin-top: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.watch img{
+    width: 20px;
+    height: 20px;
+    margin-left: 23px;
+    margin-top: 8px;
+}
+
+.watch p{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 52px;
+    font-weight: bold;
+}
+
+.watch:hover{
+    background-color:#deecf4;
+}
+/*------------------- Watch Later CSS End ----------------------- */
+
+/*------------------- Like Videos CSS Start ----------------------- */
+.like_start{
+    width: 200px;
+    height: 36px;
+    /* background-color: aqua; */
+    margin-left: 10px;
+    margin-top: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.like_start img{
+    width: 20px;
+    height: 20px;
+    margin-left: 23px;
+    margin-top: 8px;
+}
+
+.like_start p{
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 52px;
+    font-weight: bold;
+}
+
+.like_start:hover{
+    background-color:#deecf4;
+}
+/*------------------- Like Videos CSS End ----------------------- */
+
+/* ---------------------- Border Bottom1 Style CSS Start ------------------ */
+
+.border_bottom1{
+    width: 200px;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+/* ---------------------- Border Bottom1 Style CSS End ------------------ */
+
+/* ---------------------- Subscription CSS Start ------------------ */
+
+.subscription{
+    margin-left: 10px;
+    margin-top: 6px;
+    font-weight: bold;
+}
+
+.subscription p{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+/* ---------------------- Subscription CSS End ------------------ */
+
+/* ---------------------- Anisul Islam CSS Start ------------------ */
+.anisul_islam{
+    width: 200px;
+    height: 36px;
+    /* background-color: aqua; */
+    margin-top: 6px;
+    margin-left: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.anisul_islam img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 3px;
+    margin-left: 23px;
+}
+
+.anisul_islam p{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -25px;
+    font-weight: bold;
+}
+
+.anisul_islam:hover{
+    background-color: #deecf4;
+}
+/* ---------------------- Anisul Islam CSS End ------------------ */
+
+/* ---------------------- Simplilearn CSS Start ------------------ */
+.simplilearn{
+    width: 200px;
+    height: 36px;
+    /* background-color: aqua; */
+    margin-left: 10px;
+    margin-top: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.simplilearn img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 3px;
+    margin-left: 23px;
+}
+
+.simplilearn p{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -25px;
+    font-weight: bold;
+}
+
+.simplilearn:hover{
+    background-color: #deecf4;
+}
+/* ---------------------- Simplilearn CSS End ------------------ */
+
+/* ---------------------- Learn From Top Rated Start ------------------ */
+
+.learn{
+    width: 200px;
+    height: 36px;
+    /* background-color: aqua; */
+    margin-left: 10px;
+    margin-top: 6px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.learn img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin-top: 3px;
+    margin-left: 23px;
+}
+
+.learn p{
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -25px;
+    font-weight: bold;
+}
+
+.learn:hover{
+    background-color: #deecf4;
+}
+
+/* ---------------------- Learn From Top Rated End ------------------ */
